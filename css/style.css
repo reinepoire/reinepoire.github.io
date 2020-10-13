@@ -19,7 +19,7 @@ main {
 }
 
 h1 {
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa', 'Comic Sans MS', sans-serif;
     text-transform: lowercase;
     font-size: 5em;
     color: #E64AA1;
