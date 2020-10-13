@@ -1,0 +1,30 @@
+body {
+    background-image: url("../img/backgound-cs.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-color: rgba(255, 250, 228, 0.103);
+}
+
+#container{
+    height:100vh;
+    display: flex;
+    width: 50%;
+
+}
+
+main {
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: 'Comfortaa', cursive;
+    text-transform: lowercase;
+    font-size: 5em;
+    color: #E64AA1;
+}
+
+p{
+    font-size: 2em;
+}
