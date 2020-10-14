@@ -5,7 +5,7 @@ body {
     margin: 0;
     background-color: rgba(255, 250, 228, 0.103);
     min-width: 100vh;
-    overflow: hidden;
+    word-break: break-word;
 }
 
 #container{
@@ -42,6 +42,9 @@ p{
     }
     #container{
         min-width: 50%;
+    }
+    body {
+        background-image: url("../img/backgroung-cs-responsive.svg");
     }
 }
 
