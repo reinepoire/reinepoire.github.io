@@ -9,10 +9,9 @@ body {
 }
 
 #container{
-    height:100vh;
+    max-height:100vh;
     display: flex;
-    max-width: 50%;
-    padding: 0.3rem;
+    max-width: 50vh;
 
 }
 
@@ -31,4 +30,30 @@ h1 {
 
 p{
     font-size: 2rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (min-width: 768px) {
+    h1{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
 }
