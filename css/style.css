@@ -4,6 +4,8 @@ body {
     background-repeat: no-repeat;
     margin: 0;
     background-color: rgba(255, 250, 228, 0.103);
+    max-width: 100%;
+    overflow: hidden;
 }
 
 #container{
