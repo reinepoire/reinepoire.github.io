@@ -19,6 +19,7 @@ body {
 main {
     margin: auto;
     font-family: 'Poppins', sans-serif;
+    padding: 1em;
 }
 
 h1 {
