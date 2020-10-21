@@ -1,60 +1,13 @@
-body {
-    background-image: url("../img/backgound-cs.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0;
-    background-color: rgba(255, 250, 228, 0.103);
-    min-width: 100vh;
-    word-break: break-word;
+nav img {
+    width: 30%;
+}
+.navbar{
+    box-shadow: none;
+}
+nav i {
+    color: #cc6633;
 }
 
-#container{
-    min-height:100vh;
-    display: flex;
-    max-width: 60%;
-
+ul.navbar-nav {
+    white-space: nowrap;
 }
-
-main {
-    margin: auto;
-    font-family: 'Poppins', sans-serif;
-    padding: 1em;
-}
-
-h1 {
-    font-family: 'Comfortaa', 'Comic Sans MS', sans-serif;
-    text-transform: lowercase;
-    font-size: 5rem;
-    color: #E64AA1;
-}
-
-p{
-    font-size: 2rem;
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media (max-width: 600px) {
-    h1{
-        font-size: 2rem;
-    }
-    p{
-        font-size: 1rem;
-    }
-    #container{
-        min-width: 50%;
-    }
-    body {
-        background-image: url("../img/backgroung-cs-responsive.svg");
-    }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media (min-width: 600px) and (max-width: 768px) {
-    h1{
-        font-size: 3rem;
-    }
-    p{
-        font-size: 1.2rem;
-    }
-}
-

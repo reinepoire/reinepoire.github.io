@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="Content-Language" content="fr">
-	<meta name="Description" content="Portfolio de Regina">
-	<meta name="Subject" content="Porfolio">
-	<meta name="Author" content="reinepoire">
-	<meta name="Rating" content="general">
-	<meta name="Geography" content="Paris, France">
-	<link href="css/style.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Poppins:wght@300&display=swap" rel="stylesheet">
-	<title>coming soon | reinepoire | your online bff</title>
-	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Content-Language" content="fr">
+    <meta name="Description" content="Portfolio d'une webmaster junior à la recherche d'une nouvelle opportunité professionnelle. ">
+    <meta name="Subject" content="portfolio">
+    <meta name="Identifier-Url" content="reinepoire.github.io">
+    <meta name="Rating" content="general">
+    <meta name="Geography" content="Paris">
+    <meta name="Category" content="website">
+    <title>reinepoire | webmaster | your online bff</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
@@ -26,20 +30,82 @@
 	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
 	<link rel="manifest" href="img/favicon/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-	
-	
 </head>
 <body>
     <div id="container">
-		<main>
-			<h1>Ouuuuups !</h1>
-			<p><span>&#128679</span> Mon site est en construction <span>&#128679</span> <br>Reviens plus tard ! </p>
-			
-		</main>
-	</div>
+        <header>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light d-flex flex-nowrap">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#homepage">
+                <img src="img/logo.png" alt="Logo" title="Logo reinepoire">
+            </a>
+
+            <!-- Bouton menu hamburger -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span><i class="fas fa-bars fa-1x"></i></span>
+            </button>
+
+
+            <!-- Navigation -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutMe">Qui suis-je ?</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="projets">Projets</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+
+        <main>
+            <section id="homepage" class="d-flex flex-column-reverse flex-md-row text-center align-items-center">
+               <article class="col-md-6">
+                   <h1>Hey &#128075;&#127998;, moi c'est Regina</h1>
+                   <p>Future webmaster et étudiante en développement front-end, je suis, actuellement, à la recherche de l'entreprise dans laquelle je pourrai mettre à profit mes atouts et dans laquelle je pourrai continuer d'évoluer.</p>
+               </article>
+               <figure class="col-md-6">
+                   <img src="img/memoji-regina_homepage.png" alt="Memoji me représentant avec en arrière-plan des illustrations faisant référence à des langages web." title="Coucou, c'est moi" class="w-responsive">
+               </figure> 
+            </section>
+
+            <section id="aboutMe" class="d-flex align-items-center">
+                <figure class="col-md-6">
+                    <img src="img/memoji-aboutMe.png" alt="" class="w-responsive">
+                </figure>
+
+                <article class="col-md-6">
+                    <h2>Et si je t'en disais un peu plus sur moi ?</h2>
+                    <p>Après avoir obtenu ma licence en marketing, au cours desquels, j'ai eu un petit crush pour le digital.</p>
+                    <p>Ensuite, en quête de fonctions un peu moins commerciale et plus créative, mais aussi pour découvrir les coulisses des pages web, je décide de valoriser mon diplôme avec un BTS en webdesign</p>
+                    <p>Enfin, aujourd'hui, je contnue d'enrichir mes compétences en suivant une formation en développement front-end.</p>
+                    <p class="small">Pssst... <span class="italic">reinepoire</span>, c'est juste la traduction littérale de mon prénom et de mon nom ;)</p>
+                </article>
+
+            </section>
+            <section></section>
+            <section></section>
+            <section></section>
+        </main>
+
+        <footer></footer>
+    </div>
+    
+    
+   
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
 </body>
 </html>
-    
