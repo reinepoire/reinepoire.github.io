@@ -1,5 +1,5 @@
 nav img {
-    width: 30%;
+    width: 30vh;
 }
 .navbar{
     box-shadow: none;
@@ -10,4 +10,20 @@ nav i {
 
 ul.navbar-nav {
     white-space: nowrap;
+}
+img.icon {
+    width: 50px;
+    margin-right: 2em;
+}
+ul.icon{
+    width: 75vw;
+    margin: auto;
+}
+
+.list-group-item{
+    border:none!important;
+}
+
+section {
+    height: 100vh;
 }
