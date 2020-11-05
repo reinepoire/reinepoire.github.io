@@ -3,26 +3,26 @@
     font-family: 'Comfortaa';
     font-style: normal;
     font-weight: normal;
-    src: url('webfonts/comfortaa-v29-latin-300.eot'); /* IE9 Compat Modes */
+    src: url('../webfonts/comfortaa-v29-latin-300.eot'); /* IE9 Compat Modes */
     src: local(''),
-         url('webfonts/comfortaa-v29-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('webfonts/comfortaa-v29-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
-         url('webfonts/comfortaa-v29-latin-300.woff') format('woff'), /* Modern Browsers */
-         url('webfonts/comfortaa-v29-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('webfonts/comfortaa-v29-latin-300.svg#Comfortaa') format('svg'); /* Legacy iOS */
+         url('../webfonts/comfortaa-v29-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../webfonts/comfortaa-v29-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../webfonts/comfortaa-v29-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('../webfonts/comfortaa-v29-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../webfonts/comfortaa-v29-latin-300.svg#Comfortaa') format('svg'); /* Legacy iOS */
   }
   /* comfortaa-500 - latin */
   @font-face {
     font-family: 'Comfortaa';
     font-style: normal;
     font-weight: bold;
-    src: url('webfonts/comfortaa-v29-latin-500.eot'); /* IE9 Compat Modes */
+    src: url('../webfonts/comfortaa-v29-latin-500.eot'); /* IE9 Compat Modes */
     src: local(''),
-         url('webfonts/comfortaa-v29-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('webfonts/comfortaa-v29-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
-         url('webfonts/comfortaa-v29-latin-500.woff') format('woff'), /* Modern Browsers */
-         url('webfonts/comfortaa-v29-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('webfonts/comfortaa-v29-latin-500.svg#Comfortaa') format('svg'); /* Legacy iOS */
+         url('../webfonts/comfortaa-v29-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../webfonts/comfortaa-v29-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../webfonts/comfortaa-v29-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../webfonts/comfortaa-v29-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../webfonts/comfortaa-v29-latin-500.svg#Comfortaa') format('svg'); /* Legacy iOS */
   }
 /* montserrat-200 - latin */
 @font-face {
@@ -72,6 +72,9 @@
     #container {
         background: bottom -220px right -50px no-repeat url(../img/background/bg-footer.png), right -90px top -90px no-repeat url(../img/background/Bg-form.png), left -70px top 550px no-repeat url(../img/background/Bg-form3.png),left -30px top 1000px no-repeat url(../img/background/Bg-form5.png),right -50px top 1200px no-repeat url(../img/background/Bg-form6.png), left -60px top 1600px no-repeat url(../img/background/Bg-form7.png), right -90px top 3400px no-repeat url(../img/background/Bg-form8.png), left -10px top 2600px no-repeat url(../img/background/Bg-form9.png), right -100px top 1800px no-repeat url(../img/background/Bg-form3.png)
     }
+    img.w-resp {
+        width: 80%;
+    }
   }
   
   /* // Medium devices (tablets, 768px and up) */
@@ -91,6 +94,9 @@
     }
     nav img {
         width: 30vh!important;
+    }
+    img.w-resp {
+        width: 100%;
     }
   }
 
