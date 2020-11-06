@@ -12,7 +12,7 @@
          url('../webfonts/comfortaa-v29-latin-300.svg#Comfortaa') format('svg'); /* Legacy iOS */
   }
   /* comfortaa-500 - latin */
-  @font-face {
+@font-face {
     font-family: 'Comfortaa';
     font-style: normal;
     font-weight: bold;
@@ -64,10 +64,8 @@
          url('../webfonts/montserrat-v15-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
   }
 
-  /* // Extra small devices (portrait phones, less than 576px)
-  // No media query for `xs` since this is the default in Bootstrap */
-  
-  /* // Small devices (landscape phones, 576px and lower) */
+
+  /* // Small devices  */
   @media (max-width: 576px) {
     #container {
         background: bottom -220px right -50px no-repeat url(../img/background/bg-footer.png), right -90px top -90px no-repeat url(../img/background/Bg-form.png), left -70px top 550px no-repeat url(../img/background/Bg-form3.png),left -30px top 1000px no-repeat url(../img/background/Bg-form5.png),right -50px top 1200px no-repeat url(../img/background/Bg-form6.png), left -60px top 1600px no-repeat url(../img/background/Bg-form7.png), right -90px top 3400px no-repeat url(../img/background/Bg-form8.png), left -10px top 2600px no-repeat url(../img/background/Bg-form9.png), right -100px top 1800px no-repeat url(../img/background/Bg-form3.png)
@@ -80,7 +78,7 @@
     }
   }
   
-  /* // Medium devices (tablets, 768px and up) */
+  /* // Medium devices  */
   @media (min-width: 768px) {
     nav img {
         width: 20vh!important;
@@ -88,7 +86,7 @@
     
   }
   
-  /* // Large devices (desktops, 992px and up) */
+  /* // Large devices  */
   @media (min-width: 992px) {
     #container {
         background: bottom -240px right -150px no-repeat url(../img/background/bg-footer.png), right 5px top -90px no-repeat url(../img/background/Bg-form.png), right 50px top 140px no-repeat url(../img/background/Bg-form2.png), left -95px top 450px no-repeat url(../img/background/Bg-form3.png),right -1px top 600px no-repeat url(../img/background/Bg-form4.png),left -30px top 1000px no-repeat url(../img/background/Bg-form5.png),right 90px top 1327px no-repeat url(../img/background/Bg-form6.png), left -60px top 1500px no-repeat url(../img/background/Bg-form7.png), left 600px top 1700px no-repeat url(../img/background/Bg-form8.png), left -190px top 1900px no-repeat url(../img/background/Bg-form9.png), right 90px top 1950px no-repeat url(../img/background/Bg-form3.png)
@@ -100,7 +98,7 @@
     
   }
   
-  /* // Extra large devices (large desktops, 1200px and up) */
+  /* // Extra large devices  */
   @media (min-width: 1200px) {
     #container {
         background: bottom -280px right -100px no-repeat url(../img/background/bg-footer.png), right 5px top -90px no-repeat url(../img/background/Bg-form.png), right 50px top 140px no-repeat url(../img/background/Bg-form2.png), left -95px top 420px no-repeat url(../img/background/Bg-form3.png),right -1px top 600px no-repeat url(../img/background/Bg-form4.png),left -30px top 1000px no-repeat url(../img/background/Bg-form5.png),right 90px top 1327px no-repeat url(../img/background/Bg-form6.png), left -60px top 1500px no-repeat url(../img/background/Bg-form7.png), left 600px top 1700px no-repeat url(../img/background/Bg-form8.png), left -150px top 1950px no-repeat url(../img/background/Bg-form9.png), right 90px top 1950px no-repeat url(../img/background/Bg-form3.png)
