@@ -65,8 +65,8 @@
   }
 
 
-  /* // Small devices  */
-  @media (max-width: 576px) {
+  /* // extra Small devices  */
+  @media (max-width: 575.98px) {
     #container {
         background: bottom -220px right -50px no-repeat url(../img/background/bg-footer.png), right -90px top -90px no-repeat url(../img/background/Bg-form.png), left -70px top 550px no-repeat url(../img/background/Bg-form3.png),left -30px top 1000px no-repeat url(../img/background/Bg-form5.png),right -50px top 1200px no-repeat url(../img/background/Bg-form6.png), left -60px top 1600px no-repeat url(../img/background/Bg-form7.png), right -90px top 3400px no-repeat url(../img/background/Bg-form8.png), left -10px top 2600px no-repeat url(../img/background/Bg-form9.png), right -100px top 1800px no-repeat url(../img/background/Bg-form3.png);
     }
@@ -77,11 +77,24 @@
         width: 20vh;
     }
   }
+
+/* // Small devices  */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    #container {
+        background: bottom -220px right -50px no-repeat url(../img/background/bg-footer.png), right -90px top -90px no-repeat url(../img/background/Bg-form.png), left -70px top 550px no-repeat url(../img/background/Bg-form3.png),left -30px top 1000px no-repeat url(../img/background/Bg-form5.png),right -50px top 1200px no-repeat url(../img/background/Bg-form6.png), left -60px top 1600px no-repeat url(../img/background/Bg-form7.png), right -90px top 3400px no-repeat url(../img/background/Bg-form8.png), left -10px top 2600px no-repeat url(../img/background/Bg-form9.png), right -100px top 1800px no-repeat url(../img/background/Bg-form3.png);
+    } 
+    img.w-responsive {
+        width: 80%;
+    } 
+    nav img {
+        width: 30vh;
+    }
+  }
   
   /* // Medium devices  */
-  @media (min-width: 768px) {
+  @media (min-width: 768px) and (max-width: 991.98px) {
     nav img {
-        width: 25vh;
+        width: 30vh;
     }
     #container {
         background: bottom -260px right -95px no-repeat url(../img/background/bg-footer.png), right -90px top -90px no-repeat url(../img/background/Bg-form.png), left -130px top 350px no-repeat url(../img/background/Bg-form3.png),left -30px top 1000px no-repeat url(../img/background/Bg-form5.png),right -50px top 1200px no-repeat url(../img/background/Bg-form6.png), left -60px top 1600px no-repeat url(../img/background/Bg-form7.png), right -90px top 500px no-repeat url(../img/background/Bg-form8.png), left -70px top 2150px no-repeat url(../img/background/Bg-form9.png), right -100px top 1800px no-repeat url(../img/background/Bg-form3.png);
@@ -90,7 +103,7 @@
   }
   
   /* // Large devices  */
-  @media (min-width: 992px) {
+  @media (min-width: 992px) and (max-width: 1199.98px) {
     #container {
         background: bottom -240px right -150px no-repeat url(../img/background/bg-footer.png), right 5px top -90px no-repeat url(../img/background/Bg-form.png), right 50px top 140px no-repeat url(../img/background/Bg-form2.png), left -95px top 450px no-repeat url(../img/background/Bg-form3.png),right -1px top 600px no-repeat url(../img/background/Bg-form4.png),left -30px top 1000px no-repeat url(../img/background/Bg-form5.png),right 90px top 1327px no-repeat url(../img/background/Bg-form6.png), left -60px top 1500px no-repeat url(../img/background/Bg-form7.png), left 600px top 1700px no-repeat url(../img/background/Bg-form8.png), left -190px top 1900px no-repeat url(../img/background/Bg-form9.png), right 90px top 1950px no-repeat url(../img/background/Bg-form3.png);
     }
