@@ -236,6 +236,10 @@ section#projets button a {
     font-size: 1em;
 }
 
+section#projets article{
+    float: left;
+}
+
 span.note {
     font-family: 'Courier New', Courier, monospace;
     border: 1px solid #ccc;
@@ -255,6 +259,20 @@ span.note {
     background-color: transparent;
     -webkit-box-shadow: none;
     box-shadow: none;
+}
+
+.controls-left{
+    left: 0;
+    z-index: 1;
+    top: 40%;
+}
+.controls-right{
+    right: 0;
+    z-index: 1;
+    top: 40%;
+}
+section#projets a{
+    color: #FF9933;
 }
 
 /* FIN SECTION PROJETS */
